@@ -1,0 +1,35 @@
+{
+  "name": "helloreact",
+  "version": "1.0.0",
+  "description": "\"My_First_React_App\"",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/RehmaEjaz/Hello_React.git"
+  },
+  "keywords": [
+    "Hello_React"
+  ],
+  "author": "REHMA EJAZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RehmaEjaz/Hello_React/issues"
+  },
+  "homepage": "https://github.com/RehmaEjaz/Hello_React#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0"
+  }
+}

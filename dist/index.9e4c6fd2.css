@@ -1,0 +1,173 @@
+.body {
+  box-sizing: border-box;
+  background-image: radial-gradient(#f5f4f9, #e3ecf3);
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.header {
+  height: 80px;
+  z-index: 1000;
+  will-change: transform;
+  contain: size layout style;
+  background: #fff;
+  border: 1px solid #e2c6c6;
+  justify-content: space-between;
+  padding: 0 20px;
+  transition: transform .3s;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateZ(0);
+  box-shadow: 0 15px 40px -20px #282c3f26;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+*, :after, :before {
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  width: 26%;
+  margin-left: 55px;
+}
+
+.nav-items > ul {
+  padding: 0 20px;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.search {
+  padding: 10px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.res-card {
+  width: 230px;
+  background-color: #312d2d;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 2px 4px;
+  box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #2e313f0d;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  gap: 15px;
+  display: flex;
+}
+
+.res-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.res-img:hover {
+  background-color: #6e6e70;
+  transform: scale(1.2);
+}
+
+h4 {
+  color: #6e6e70;
+  margin: .5em 0 0;
+  line-height: 1.4em;
+}
+
+span {
+  color: #fff;
+  background-color: #db7c38;
+  margin-right: 4px;
+  font-size: 15px;
+}
+
+span.dtime {
+  background-color: none;
+  margin-left: 20px;
+}
+
+.filter-btn {
+  color: #db7c38;
+  border: none;
+  border-radius: 5px;
+  margin: 26px 0 0 8px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.search {
+  text-align: center;
+}
+
+.nav-items a {
+  color: #555;
+  white-space: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  transition: all .3s;
+  display: flex;
+}
+
+#btn {
+  letter-spacing: .1px;
+  color: #fff;
+  background-color: #ae5a23;
+  border: none;
+  border-radius: 8px;
+  margin: 16px;
+  padding: .625rem 1rem;
+}
+
+.rounded {
+  padding: 4.5px;
+}
+
+.shimmer-card {
+  width: 230px;
+  height: 200px;
+  background-color: #d3d3d3;
+  margin: 20px;
+}
+
+.shimmerBG {
+  background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+  animation-name: shimmer;
+  animation-duration: 2.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.title-line {
+  height: 24px;
+  width: 70%;
+  border-radius: 20px;
+  margin-top: 120px;
+}
+
+.listIcon {
+  color: #00f;
+  margin: 14px 20px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
